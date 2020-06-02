@@ -1,0 +1,2 @@
+[32mINFO    [0m root:self_zidongtou.py:46 ——————————检测自动投-常见问题--------------
+[32mINFO    [0m root:self_zidongtou.py:50 ——————————没有找到自动投-常见问题icon——————————

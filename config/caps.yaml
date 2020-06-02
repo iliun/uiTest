@@ -1,0 +1,15 @@
+platformName: Android
+platformVersion: 9
+deviceName: vivo X21UD A
+udid: 34f5aa6e
+
+app: mobile-website-v4.0.06-release.apk
+appActivity: com.fengjr.mobile.act.impl.FengjrSplash
+appPackage: com.fengjr.mobile
+
+noReset: True
+unicodeKeyboard: True
+resetKeyboard: True
+
+ip: 127.0.0.1
+port: 4723

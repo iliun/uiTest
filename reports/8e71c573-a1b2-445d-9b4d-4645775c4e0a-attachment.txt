@@ -1,0 +1,2 @@
+2020-03-09 20:59:47,947 self_zidongtou.py[line:83] INFO -----------check_openAuto_jump——————————————
+2020-03-09 20:59:47,952 self_zidongtou.py[line:87] INFO ————————————开去自动投的按钮跳转失败——————————————

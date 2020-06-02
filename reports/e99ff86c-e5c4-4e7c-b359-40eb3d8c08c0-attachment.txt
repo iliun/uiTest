@@ -1,0 +1,2 @@
+[32mINFO    [0m root:self_zidongtou.py:33 ————————check_banner_jump-----------
+[32mINFO    [0m root:self_zidongtou.py:37 --------跳转失败——————————

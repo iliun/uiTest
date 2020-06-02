@@ -1,0 +1,2 @@
+2020-03-09 20:59:47,419 self_zidongtou.py[line:33] INFO ————————check_banner_jump-----------
+2020-03-09 20:59:47,435 self_zidongtou.py[line:37] INFO --------跳转失败——————————
