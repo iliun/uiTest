@@ -1,3 +1,4 @@
+#coding=utf-8
 from appium import webdriver
 import os
 import yaml
@@ -5,7 +6,8 @@ import logging
 import logging.config
 
 CON_LOG='../config/log.conf'
-logging.config.fileConfig(CON_LOG)
+CON_LOG_PATH = os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__),'..')),'config/log.conf')
+logging.config.fileConfig(CON_LOG_PATH)
 logging=logging.getLogger()
 
 def appium_desired():

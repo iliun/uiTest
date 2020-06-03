@@ -1,3 +1,4 @@
+#coding=utf-8
 from common.com_func import Common
 from selenium.webdriver.common.by import By
 import logging

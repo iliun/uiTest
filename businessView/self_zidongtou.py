@@ -1,3 +1,4 @@
+#coding=utf-8
 from common.desired_caps import appium_desired
 from common.com_func import Common
 from selenium.webdriver.common.by import By

@@ -1,3 +1,4 @@
+#coding=utf-8
 import csv
 import logging,time,os,sys
 from common import desired_caps

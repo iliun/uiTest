@@ -1,3 +1,4 @@
+#coding=utf-8
 import logging,time
 from common.desired_caps import appium_desired
 from common.com_func import Common
