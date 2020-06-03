@@ -1,6 +1,6 @@
 #coding=utf-8
 import logging,time,sys,os
-#sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),'..')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),'..')))
 from common.desired_caps import appium_desired
 from businessView.loginView_func import LoginView
 from selenium.webdriver.support.ui import WebDriverWait
