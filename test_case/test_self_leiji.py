@@ -1,3 +1,4 @@
+#coding=utf-8
 import pytest,os,sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),'..')))
 from businessView.self_leiji import SelfLeijiView

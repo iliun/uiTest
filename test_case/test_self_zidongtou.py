@@ -1,3 +1,4 @@
+#coding=utf-8
 from common.com_func import Common
 from common.desired_caps import appium_desired
 from selenium.webdriver.support.ui import WebDriverWait

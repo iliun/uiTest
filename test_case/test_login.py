@@ -1,3 +1,4 @@
+#coding=utf-8
 import logging,time,sys,os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),'..')))
 from common.desired_caps import appium_desired
