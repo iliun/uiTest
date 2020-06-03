@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 
 
 class TestLogin():
-    csv_file = '../data/numb.csv'
+    csv_file = '../data/num.csv'
     driver = appium_desired()
 
     def teardown_method(self):
@@ -32,3 +32,9 @@ class TestLogin():
 
 
 
+if __name__ == '__main__':
+    obj = TestLogin()
+    obj.test_01()
+    obj.teardown_method()
+    obj.test_02()
+    obj.teardown_method()
