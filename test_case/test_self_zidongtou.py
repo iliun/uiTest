@@ -1,4 +1,6 @@
 #coding=utf-8
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__),'..')))
 from common.com_func import Common
 from common.desired_caps import appium_desired
 from selenium.webdriver.support.ui import WebDriverWait
