@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 
 
 class TestLogin():
-    csv_file = '../data/账号.csv'
+    csv_file = '../data/numb.csv'
     driver = appium_desired()
 
     def teardown_method(self):
