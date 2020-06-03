@@ -75,7 +75,7 @@ class Common(BaseView):
         logging.info('——————————下滑————————')
         l = self.get_size()
         x1 = int(l[0] * 0.5)
-        y1 = int(l[1] * 0.9)
+        y1 = int(l[1] * 0.8)
         y2 = int(l[0] * 0.5)
         self.driver.swipe(x1,y1,x1,y2,2000)
 

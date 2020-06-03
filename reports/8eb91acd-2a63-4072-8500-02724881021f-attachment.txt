@@ -1,2 +1,0 @@
-[32mINFO    [0m root:self_zidongtou.py:71 —————————点击去开启自动投———————————
-[32mINFO    [0m root:self_zidongtou.py:75 ——————————没有找到开启按钮————————————

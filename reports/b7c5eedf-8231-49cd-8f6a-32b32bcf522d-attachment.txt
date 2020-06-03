@@ -1,2 +1,0 @@
-[32mINFO    [0m root:self_zidongtou.py:58 ——————————check_common_problem——————————
-[32mINFO    [0m root:self_zidongtou.py:62 ———————————常见问题跳转失败—------------

@@ -1,0 +1,5 @@
+INFO     root:test_login.py:26 ----密码错误
+INFO     root:loginView_func.py:47 -----------执行登录操作-----------
+INFO     root:loginView_func.py:78 ————————退出登录——————————
+INFO     root:com_func.py:75 ——————————下滑————————
+INFO     root:loginView_func.py:80 -------设置按钮——————————

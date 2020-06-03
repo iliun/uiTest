@@ -19,7 +19,7 @@ class LoginView(Common):
     #登录账号
     login_name = (By.ID,'com.fengjr.mobile:id/tv_left_subtitle')
     #设置
-    settings = (By.XPATH,'/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.support.v4.view.ViewPager/android.widget.LinearLayout/android.widget.FrameLayout[2]/android.view.ViewGroup/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[5]/android.support.v7.widget.RecyclerView/android.view.ViewGroup[4]/android.widget.TextView')
+    settings = (By.XPATH,"//*[@resource-id='com.fengjr.mobile:id/layout_container' and @index=3]")
     #安全退出
     logout_button = (By.ID,'com.fengjr.mobile:id/quit')
     #确认退出弹窗
@@ -43,7 +43,7 @@ class LoginView(Common):
     def login_action(self,username,password):
         # self.agree_button()
         # self.allow_button()
-        WebDriverWait(self.driver,7).until(lambda x:x.find_element(*self.self_button))
+        WebDriverWait(self.driver,10).until(lambda x:x.find_element(*self.self_button))
         logging.info('-----------执行登录操作-----------')
         self.driver.find_element(*self.self_button).click()
         WebDriverWait(self.driver,3).until(lambda x:x.find_element(*self.passwordLogin))
@@ -57,7 +57,7 @@ class LoginView(Common):
         self.driver.find_element(*self.pwd_input).send_keys(password)
         logging.info('-----------点击登录按钮-----------')
         self.driver.find_element(*self.login_button).click()
-        WebDriverWait(self.driver,5).until(lambda x:x.find_element(*self.login_name))
+
         #self.click_random()
     #首次登录处理3个蒙层
     # def check_mengceng(self):
@@ -65,6 +65,7 @@ class LoginView(Common):
     def check_login_success(self):
         logging.info('——————检测登录是否成功————————————')
         try:
+            self.driver.implicitly_wait(5)
             self.driver.find_element(*self.login_name)
         except NoSuchElementException:
             logging.error('--------登录失败————————')
@@ -81,7 +82,11 @@ class LoginView(Common):
         self.driver.find_element(*self.settings).click()
         self.driver.implicitly_wait(2)
         self.swipe_down()
+        self.driver.implicitly_wait(2)
+        self.swipe_down()
+        self.driver.implicitly_wait(2)
         self.driver.find_element(*self.logout_button).click()
+        self.driver.implicitly_wait(5)
         self.driver.find_element(*self.confirm_exit).click()
 
     def check_logout_success(self):
@@ -100,11 +105,8 @@ class LoginView(Common):
 if __name__ == '__main__':
     driver = appium_desired()
     obj = LoginView(driver)
-    obj.login_action('18632843357','1234qwer')
     obj.check_login_success()
-    obj.skip_button()
-    obj.logout_action()
-    obj.check_logout_success()
+
 
 
 

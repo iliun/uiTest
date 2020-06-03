@@ -1,0 +1,12 @@
+INFO     root:test_login.py:19 ----通过测试
+INFO     root:loginView_func.py:47 -----------执行登录操作-----------
+INFO     root:loginView_func.py:32 ————————————判断是否需要清除输入框内容—————————————
+INFO     root:loginView_func.py:38 ————————————需要清除手机号输入框内容—————————————
+INFO     root:loginView_func.py:52 ——————————输入用户名:18632843357-----------
+INFO     root:loginView_func.py:55 ——————————输入密码:1234qwer————————————
+INFO     root:loginView_func.py:58 -----------点击登录按钮-----------
+INFO     root:loginView_func.py:66 ——————检测登录是否成功————————————
+INFO     root:loginView_func.py:74 ————————登录成功——————————
+INFO     root:loginView_func.py:78 ————————退出登录——————————
+INFO     root:com_func.py:75 ——————————下滑————————
+INFO     root:loginView_func.py:80 -------设置按钮——————————

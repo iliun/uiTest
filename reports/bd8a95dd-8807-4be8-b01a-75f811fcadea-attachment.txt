@@ -1,3 +1,0 @@
-[32mINFO    [0m root:com_func.py:51 ---------手势密码-------------
-[32mINFO    [0m root:self_leiji.py:14 ---------执行get_totalAsset方法--------------
-[32mINFO    [0m root:self_leiji.py:18 -------没有获取到总资产元素-----------
