@@ -6,7 +6,7 @@ import logging
 import logging.config
 
 CON_LOG='../config/log.conf'
-CON_LOG_PATH = os.path.join(os.path.abspath(os.path.join(os.path.dirname(__file__),'..')),'config/log.conf')
+CON_LOG_PATH = os.path.join(os.path.join(os.path.dirname(__file__),'..'),'config/log.conf')
 logging.config.fileConfig(CON_LOG_PATH)
 logging=logging.getLogger()
 

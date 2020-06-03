@@ -3,16 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="22c5f58f-37f1-4c22-a0c0-9916e255971d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/baseView/baseView_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/baseView/baseView_func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/businessView/loginView_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/businessView/loginView_func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/businessView/self_leiji.py" beforeDir="false" afterPath="$PROJECT_DIR$/businessView/self_leiji.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/businessView/self_zidongtou.py" beforeDir="false" afterPath="$PROJECT_DIR$/businessView/self_zidongtou.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/com_func.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/com_func.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/desired_caps.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/desired_caps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/runlog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/runlog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_run/run_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_run/run_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_run/run_self_leiji.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_run/run_self_leiji.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_run/run_zidongtou.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_run/run_zidongtou.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/common/desired_caps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="8" column="91" lean-forward="true" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
+            <state relative-caret-position="178">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
                 <element signature="e#1#29#0" expanded="true" />
               </folding>
@@ -625,8 +615,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/desired_caps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="91" lean-forward="true" selection-start-line="8" selection-start-column="91" selection-end-line="8" selection-end-column="91" />
+        <state relative-caret-position="178">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
             <element signature="e#1#29#0" expanded="true" />
           </folding>
